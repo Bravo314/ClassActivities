@@ -1,12 +1,12 @@
 // ? TO DO: create a while loop that TOTALS the numbers from 1 to 100
 // create a variable to represent the current number
-let num = 1;
+let curNum = 100;
 // create a variable to represent the current total
-let total = 0;
+let curTotal = 0;
 // write a while loop that sums the numbers from 1 to 100
-while (num <= 100) {
-  total += num;
-  num++;
+let i = 1;
+while (i <= curNum) {
+  curTotal += i;
+  i++;
 }
-
-console.log(total);
+console.log(curTotal);
